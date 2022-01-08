@@ -14,7 +14,7 @@ namespace StarChart
         {
             services.AddMvc();
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseInMemoryDatabase("starChart"));
+                            options.UseInMemoryDatabase("starChart"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
