@@ -14,6 +14,5 @@ namespace StarChart.Models
         [NotMapped]
         public List<CelestialObject> Satellites { get; set; }
         public TimeSpan OrbitalPeriod { get; set; }
-
     }
 }
